@@ -9,7 +9,9 @@ on early-init
 
 on boot
     write /sys/devices/virtual/input/lxs_ts_input/after_probe 1
-
+    chown root system /sys/devices/virtual/sec/tsp/cmd
+    chown root system /sys/devices/dsi_panel_driver/pre_sod_mode
+    
 # Display
 # Not reccomended to send HMD command during AOD in terms of HW,
 # so not set if vendor.enable.always_on_display = 1
