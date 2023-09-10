@@ -87,8 +87,8 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image
 
-KERNEL_LTO := none
-
+KERNEL_LTO := thin
+TARGET_KERNEL_CLANG_VERSION := r487747c
 TARGET_KERNEL_SOURCE := kernel/sony/sm8550
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
@@ -213,7 +213,7 @@ TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(COMMON_PATH)/configs/vintf/framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml
+    vendor/evolution/config/device_framework_matrix.xml
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += \
     $(COMMON_PATH)/configs/vintf/manifest.xml \
