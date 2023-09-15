@@ -164,7 +164,7 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.kalama
 
-AUDIO_HAL_DIR := hardware/qcom-caf/sm8550/audio/primary-hal
+AUDIO_HAL_DIR := hardware/qcom/audio/primary-hal
 
 # Audio Policies
 PRODUCT_COPY_FILES += \
