@@ -44,4 +44,7 @@
     <string name="platform_number_verification_package">com.google.android.gms</string>
     
     <string name="apn_source_service">com.google.android.carrier/.ApnSourceService</string>
+    
+	<!-- The package name for the platform carrier config app, bundled with system image. -->
+    <string name="platform_carrier_config_package" translatable="false">com.google.android.carrier</string>
 </resources>
