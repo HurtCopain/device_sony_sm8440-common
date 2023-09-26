@@ -5,4 +5,21 @@
 
     <!-- Enforce DisplayModeDirector to select user preferred resolution -->
     <bool name="config_forceToUseSelectedResolution">true</bool>
+    
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
+        
+    <string name="config_defaultAttentionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService</string>
+
+    <!-- Live Captions provided by Google's Device Personalization Service package  -->
+    <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
+
+    <!-- Whether device supports increased touch sensitvity -->
+    <bool name="config_supportGloveMode">true</bool>
+
+    <!-- Default apps -->
+    <string name="config_defaultDialer" translatable="false">com.google.android.dialer</string>
+    <string name="config_defaultGallery" translatable="false">com.google.android.apps.photos</string>
+    <string name="config_defaultSms" translatable="false">com.google.android.apps.messaging</string>
+    <string name="config_systemSpeechRecognizer" translatable="false">com.google.android.tts</string>
 </resources>
