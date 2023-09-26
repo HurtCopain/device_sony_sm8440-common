@@ -287,6 +287,7 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # HWUI
 PRODUCT_VENDOR_PROPERTIES += \
+debug.hwui.renderer=skiavk \
 debug.hwui.use_hint_manager=true \
 debug.hwui.target_cpu_time_percent=30
 
