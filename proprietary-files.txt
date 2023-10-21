@@ -443,11 +443,8 @@ vendor/lib64/camera/com.qti.sensor.s5k5e9yx04.so
 vendor/lib64/camera/com.qti.sensor.s5khp1s.so
 vendor/lib64/camera/com.qti.sensor.s5kjd1sp.so
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.sony.sensormodule.camino_imx650.bin
-vendor/lib64/camera/com.sony.sensormodule.crocus_imx663.bin
 vendor/lib64/camera/com.sony.sensormodule.maunakea_imx563.bin
 vendor/lib64/camera/com.sony.sensormodule.maunakea_imx888.bin
-vendor/lib64/camera/com.sony.tuned.camino_imx650.bin
 vendor/lib64/camera/com.sony.tuned.crocus_imx663.bin
 vendor/lib64/camera/com.sony.tuned.maunakea_imx563.bin
 vendor/lib64/camera/com.sony.tuned.maunakea_imx888.bin
