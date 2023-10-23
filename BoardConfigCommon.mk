@@ -80,6 +80,11 @@ BOARD_KERNEL_CMDLINE += nosoftlockup
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
+    kpti=off \
+    lpm_levels.sleep_disabled=1 \
+    android_kmalloc_64_create=true \
+    msm_rtb.filter=0x237 \
+    service_locator.enable=1 \
     androidboot.init_fatal_reboot_target=recovery \
     androidboot.usbcontroller=a600000.dwc3
 
