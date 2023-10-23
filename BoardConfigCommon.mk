@@ -276,7 +276,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # RIL APNs
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/ril/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+    $(COMMON_PATH)/configs/ril/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
     
 # Security patch level
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
