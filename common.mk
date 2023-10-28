@@ -520,6 +520,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.sony
 
+# Touch firmware
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/firmware/touch_module_id_0x02.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x02.img
+    
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
