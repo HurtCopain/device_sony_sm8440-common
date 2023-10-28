@@ -522,7 +522,7 @@ PRODUCT_PACKAGES += \
 
 # Touch firmware
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/firmware/touch_module_id_0x02.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x02.img
+    $(LOCAL_PATH)/rootdir/vendor/firmware/touch_module_id_0x02.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x02.img
     
 # Update engine
 PRODUCT_PACKAGES += \
