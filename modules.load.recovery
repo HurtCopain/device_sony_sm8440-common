@@ -149,7 +149,6 @@ panel_event_notifier.ko
 dmesg_dumper.ko
 sys_pm_vx.ko
 qdss_bridge.ko
-fsa4480-i2c.ko
 msm_show_epoch.ko
 gh_tlmm_vm_mem_access.ko
 sps_drv.ko
